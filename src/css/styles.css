@@ -1,7 +1,16 @@
-#map {
+.map {
   height: 500px;
 }
 
 .nonVinvisible {
   display: none;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.searh {
+
 }

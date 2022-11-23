@@ -22,22 +22,33 @@
 
   <!--JavaScript-->
   <script src="js/main.js" defer></script>
+
   <title>IP Address Tracker</title>
 </head>
 <body>
-  <div>
-    <input type="text" id="ip-adress">
-    <button type="button" id="search-btn">go</button>
-  </div>
-  <div>
-    <p id="outcome-ip">ip adress</p>
-    <p id="outcome-location">location</p>
-    <p id="outcome-timezone">timezone</p>
-    <p id="outcome-isp">isp</p>
-    <p class="nonVinvisible" id="long">Value</p>
-    <p class="nonVisible" id="lat">Value</p>
-  </div>
+  <div class="container-fluid main">
 
-  <div id="map"></div>
+    <!--Search area-->
+    <div class="container search d-sm-flex">
+      <h1>IP Address Tracker</h1>
+      <input type="text" id="ip-adress">
+      <button class="btn" type="button" id="search-btn">go</button>
+    </div>
+
+    <!--Outputs-->
+    <div class="container d-sm-flex" id="outputs">
+      <p id="outcome-ip">ip adress</p>
+      <p id="outcome-location">location</p>
+      <p id="outcome-timezone">timezone</p>
+      <p id="outcome-isp">isp</p>
+      <p class="nonVinvisible" id="long">Value</p>
+      <p class="nonVisible" id="lat">Value</p>
+    </div>
+  
+    <!--Map-->
+    <div class="container-fluid map">
+      <div id="map"></div>
+    </div>
+  </div>
 </body>
 </html>
