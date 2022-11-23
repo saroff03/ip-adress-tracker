@@ -96,10 +96,6 @@ p {
     height: 40vh;
   }
 
-  #map {
-    height: 60vh;
-  }
-
   #outputs {
     margin-top: 15px !important;
   }
