@@ -29,11 +29,18 @@
   <div class="container-fluid main">
 
     <!--Search area-->
-    <div class="container search d-sm-flex">
-      <h1>IP Address Tracker</h1>
-      <input type="text" id="ip-adress">
-      <button class="btn" type="button" id="search-btn">go</button>
+    <div class="container-fluid text-center search d-sm-flex">
+      <div class="container-fluid">
+        <h1 class="mt-3">IP Address Tracker</h1>
+        <div class="input-group mb-3 mt-3" id="search-div">
+          <input type="text" class="form-control" placeholder="Enter IP Address" id="ip-adress">
+          <button class="btn" type="button" id="search-btn">Button</button>
+        </div>
+      </div>
     </div>
+
+    <!--Map-->
+    <div class="container-fluid map" id="map"></div>
 
     <!--Outputs-->
     <div class="container d-sm-flex" id="outputs">
@@ -43,11 +50,6 @@
       <p id="outcome-isp">isp</p>
       <p class="nonVinvisible" id="long">Value</p>
       <p class="nonVisible" id="lat">Value</p>
-    </div>
-  
-    <!--Map-->
-    <div class="container-fluid map">
-      <div id="map"></div>
     </div>
   </div>
 </body>
