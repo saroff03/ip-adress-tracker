@@ -39,6 +39,7 @@ h1 {
   border: 1px solid white;
   border-radius: 10px;
   background-color: white;
+  z-index: 999;
 }
 
 p {
